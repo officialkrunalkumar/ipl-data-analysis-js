@@ -28,6 +28,14 @@ function readMatchData(){
         }
     });
     var matches_per_year_sorted = new Map([...matches_per_year.entries()].sort());
+    var number = 0;
+    for (k of matches_per_year_sorted.keys()){
+        if (number++ === 1)
+        {
+            break;
+        }
+        matches_per_year_sorted.delete(k);
+    }
     console.log(matches_per_year_sorted);
 }
 
