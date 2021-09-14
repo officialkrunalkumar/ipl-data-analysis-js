@@ -27,7 +27,8 @@ function readMatchData(){
             matches_per_year.set(year_data, matches_per_year.get(year_data) + 1);
         }
     });
-    console.log(matches_per_year);
+    var matches_per_year_sorted = new Map([...matches_per_year.entries()].sort());
+    console.log(matches_per_year_sorted);
 }
 
 readMatchData();
