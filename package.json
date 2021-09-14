@@ -1,0 +1,24 @@
+{
+  "name": "ipl-data-analysis",
+  "version": "1.0.0",
+  "description": "Analysis of IPL Data Using JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/krunalkumar/ipl-data-analysis-js.git"
+  },
+  "keywords": [
+    "IPL",
+    "Data",
+    "Analysis"
+  ],
+  "author": "Krunalkumar Shah",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/krunalkumar/ipl-data-analysis-js/issues"
+  },
+  "homepage": "https://gitlab.com/krunalkumar/ipl-data-analysis-js#readme"
+}
