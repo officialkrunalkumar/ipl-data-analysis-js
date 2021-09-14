@@ -16,9 +16,8 @@ function readMatchData(){
         }
         match_data.push(match);
     }
-    console.log(match_data);
+    //console.log(match_data);
     let matches_per_year = new Map();
-    let minimum_match = 1;
     match_data.forEach(data_element => {
         let year_data = data_element.get("season");
         if(!matches_per_year.has(year_data)){
