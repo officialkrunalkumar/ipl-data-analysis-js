@@ -41,7 +41,7 @@ function readMatchData(){
     matches_per_year_sorted.forEach((value, key) => {
         json_obj[key] = value;
     });
-    console.log(JSON.stringify(json_obj));
+    //console.log(JSON.stringify(json_obj));
     file_reader.writeFile('../public/ipl.json', JSON.stringify(json_obj), (error) => {
         if (error) throw error;
     });
